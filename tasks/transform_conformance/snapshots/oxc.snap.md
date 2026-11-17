@@ -1,6 +1,6 @@
 commit: 16a2d671
 
-Passed: 335/461
+Passed: 336/462
 
 # All Passed:
 * babel-plugin-transform-class-static-block
@@ -210,7 +210,7 @@ x Output mismatch
 x Output mismatch
 
 
-# legacy-decorators (23/109)
+# legacy-decorators (24/110)
 * oxc/accessor/input.ts
 x Output mismatch
 
@@ -236,8 +236,8 @@ rebuilt        : ["babelHelpers", "property"]
 
 * oxc/accessor-with-class-properties/input.ts
 Bindings mismatch:
-after transform: ScopeId(0): ["C", "_a", "_a2", "_a_accessor_storage", "_a_computed_accessor_storage", "_b_accessor_storage", "_c_accessor_storage", "a", "dec"]
-rebuilt        : ScopeId(0): ["C", "_a", "_a2", "_a_accessor_storage", "_a_computed_accessor_storage", "_b_accessor_storage", "_c_accessor_storage"]
+after transform: ScopeId(0): ["C", "_0_accessor_storage", "_a", "_a2", "_a_accessor_storage", "_b_accessor_storage", "_c_accessor_storage", "a", "dec"]
+rebuilt        : ScopeId(0): ["C", "_0_accessor_storage", "_a", "_a2", "_a_accessor_storage", "_b_accessor_storage", "_c_accessor_storage"]
 Reference symbol mismatch for "a":
 after transform: SymbolId(4) "a"
 rebuilt        : <None>
